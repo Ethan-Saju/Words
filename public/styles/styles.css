@@ -1,0 +1,73 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c75b7a;
+  background-color: #3c0008;
+  color: #f4d9d0;
+  font-family: "Nanum Pen Script", cursive;
+  margin: 0px;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  background-color: #921a40;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+}
+
+.heading h1 {
+  font-size: 100px;
+  margin: 0px;
+}
+
+#input {
+  height: 35px;
+  font-size: 25px;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.options {
+  margin: 30px;
+  display: flex;
+  gap: 50px;
+}
+
+.options button {
+  height: 70px;
+  width: 150px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 5%;
+  border: none;
+  background-color: #c75b7a;
+  border: 1.25px solid #f4d9d0;
+  color: #f4d9d0;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 30px;
+}
+
+.options button:hover {
+  opacity: 80%;
+  border-color: #3c0008;
+}
+
+.output ul {
+  padding: 0px;
+  display: flex;
+  gap: 30px;
+}
+.output li {
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 30px;
+}
